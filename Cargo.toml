@@ -1,0 +1,13 @@
+[package]
+name = "backend"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rocket = { version = "0.5.0", features = ["json"] }
+shuttle-rocket = "0.54.0"
+shuttle-runtime = "0.54.0"
+tokio = "1.26.0"
+reqwest = "0.12.15"
+rocket_cors = "0.6.0"
+dotenv = "0.15.0"
